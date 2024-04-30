@@ -1,6 +1,7 @@
 package ru.netology.javaqa;
 
 public class Main {
+
     public static void main(String[] args) {
         Post post = new Post();
         post.birthday = new FormDate();
@@ -14,4 +15,5 @@ public class Main {
         post.surname = "Иванов";
         post.subscription = true;
     }
+
 }
